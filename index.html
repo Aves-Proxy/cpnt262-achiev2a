@@ -5,16 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Studly caps (SpongeBob case)</title>
-  <script src="./client.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <script src="./js/client.js" defer></script>
 </head>
 <body>
   <h1>Studly Caps Converter</h1>
   <form>
-    <legend>Write a sentence and hit "convert" to turn it into studly caps. Your converted phrase will appear below!</legend>
+    <legend>Write a sentence and hit "convert" to turn it into studly caps.</legend>
     <label for="sentence">
       Write your sentence:
     </label>
     <input id="sentence" name="sentence" type="text" required>
+    <br>
     <button>Convert</button>
   </form>
   <h3>Placeholder until form submission.</h3>

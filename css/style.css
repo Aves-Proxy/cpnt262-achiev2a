@@ -1,0 +1,42 @@
+body {
+  margin: auto;
+
+  max-width: 50rem;
+
+  line-height: 1.7;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Libre Baskerville', Georgia, serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: 'League Spartan', Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+input {
+  margin-top: 2rem;
+
+  font-size: 18px;
+  font-family: 'Libre Baskerville', Georgia, serif
+}
+
+button {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-style: none;
+  border-radius: 30px;
+
+  font-size: 18px;
+  font-weight: 800;
+  font-family: 'League Spartan', sans-serif;
+}
+
+h3 {
+  padding-top: 2rem;
+
+  font-size: 24px;
+  font-weight: 600;
+}
